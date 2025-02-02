@@ -1,0 +1,114 @@
+#gameContainer {
+    position: relative;
+    width: 1000px; /* change according to your game */
+    height: 500px; /* change according to your game */
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+#background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4000px; 
+    height: 500px;
+    background-image: url("../images/back.png");
+    object-fit: none;
+
+}
+
+#healthDisplay {
+    font-size: 16px;
+}
+/* add styles for other HTML elements of your game */
+
+#backgroundStart{
+    position: absolute; 
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 0;
+    width: 600px; 
+    height: 600px;
+    background-image: url("../images/front.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+#textStart{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    position: absolute;
+    left: 29%;
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+.button-class {
+    background-color: #fc0606;
+    
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 90px 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 50%; 
+}
+
+
+
+
+#backgroundRules{
+    position: absolute; 
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 0;
+    width: 600px; 
+    height: 600px;
+    background-image: url("../images/rules.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.button-rule1 {
+    background-color: #fc0606;
+    
+    border: none;
+    margin-left: 50%;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 400px 250px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.button-rule2 {
+    background-color: #fc0606;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 20px 340px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 50%;
+}
