@@ -39,18 +39,46 @@
 
 > ## 📸 **Screenshots**
 
-### Main Gameplay:
+> ### Start Page:
 <div style="text-align: center;">
-  <img src="gameplay.png" alt="Gameplay Screenshot" width="600">
-  <p>*Figure 1: Example of gameplay in action.*</p>
+  <img src="Startpage.png" alt="start page" width="600">
+  <p>*Figure 1: Start Page*</p>
+</div>
+
+---
+> ### Rules Page:
+<div style="text-align: center;">
+  <img src="Rulepage.png" alt="rule page" width="600">
+  <p>*Figure 2: Rule Page*</p>
+</div>
+
+---
+### Main Gameplay (Level 01):
+<div style="text-align: center;">
+  <img src="level01.png" alt="Gameplay Screenshot" width="600">
+  <p>*Figure 3: Level 01 of the game.*</p>
+</div>
+
+---
+### End Point (Level 01):
+<div style="text-align: center;">
+  <img src="endpoint1.png" alt="Gameplay Screenshot" width="600">
+  <p>*Figure 3: End Point of Level 01.*</p>
 </div>
 
 ---
 
-### Menu and UI:
+### Main Gameplay (Level 02):
 <div style="text-align: center;">
-  <img src="menu.png" alt="Menu UI Screenshot" width="600">
-  <p>*Figure 2: Menu and user interface.*</p>
+  <img src="level02.png" alt="Gameplay Screenshot" width="600">
+  <p>*Figure 4: Level 02 of the game.*</p>
+</div>
+
+---
+### End Point (Level 02):
+<div style="text-align: center;">
+  <img src="endpoint2.png" alt="Gameplay Screenshot" width="600">
+  <p>*Figure 3: End Point of Level 02.*</p>
 </div>
 
 ---
@@ -60,16 +88,33 @@ Below are the sprites used to create characters and objects in the game:
 
 ### Player Character:
 <div style="text-align: center;">
-  <img src="playersheet.png" alt="Player Spritesheet" width="500">
-  <p>*Figure 3: Player character animations.*</p>
+  <img src="player.png" alt="Player Spritesheet" width="500">
+  <p>*Figure 4: Player character animations.*</p>
 </div>
 
 ---
 
-### Enemies and NPCs:
+### Enemy:
 <div style="text-align: center;">
-  <img src="enemysheet.png" alt="Enemy Spritesheet" width="500">
-  <p>*Figure 4: Enemy animations.*</p>
+  <img src="monster.png" alt="Enemy Spritesheet" width="500">
+  <p>*Figure 5: Monster character.*</p>
 </div>
 
 ---
+## ✍️ **Reflection**
+
+### What went well:
+- **Creative Design:** The game’s visual style and theme blended seamlessly, making the experience both engaging and immersive. Designing images was a fun and rewarding process.
+- **Core Mechanics:** The gravity-based gameplay worked better than expected and provided a unique challenge.
+- **Object designing** Successfully align all the game objects.
+
+### Challenges:
+- **Feature Limitations:** Some planned mechanics had to be shelved due to time constraints, requiring prioritization of essential gameplay elements.
+- **Bug Fixes:** Handling collisions and edge cases for gravity mechanics was tricky.
+- **Background Changes for levels:** This was quit difficult as i had to change level 02 in different way.
+
+### Lessons Learned:
+- **Prototyping Matters:** Testing early prototypes helped refine the core mechanics quickly.
+- **Keep it Simple:** Prioritizing quality over quantity led to a more polished game, proving that a well-executed single feature is better than multiple unfinished ones.
+- **Time Management is Key:** Breaking tasks into smaller milestones helped keep development on track. Prioritizing core features over extras ensured a functional and polished game.
+- **Bug Fixing is an Ongoing Process:** No matter how well-planned, unexpected glitches and edge cases will arise. Testing across different scenarios was essential in refining the mechanics.
